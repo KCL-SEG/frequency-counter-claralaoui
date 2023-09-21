@@ -3,5 +3,8 @@
 
 def frequencies(items):
     frequencies = {}
-    # Your code goes here
+    for item in items:
+	frequencies[str(item)] = items.count(item)
     return frequencies
+
+
